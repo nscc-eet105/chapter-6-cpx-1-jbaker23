@@ -1,9 +1,9 @@
 # Write your code here :-)
-# This is Jacob Baker and this is Chapter 6 CPX 1 whihc I am completing on June 30
+# This is Jacob Baker and this is Chapter 6 CPX 1 whihc I am completing on June 30. I revised the code to include a list instead of tuple
 from adafruit_circuitplayground import cp
 import time
 import random
-pattern = (2, 4, 1, 8, 3, 5, 7, 9, 6)
+pattern = [2, 4, 1, 8, 3, 5, 7, 9, 6]
 black = (0, 0, 0)
 def pixel_color():
     red = random.randint(0, 255)
